@@ -54,6 +54,7 @@ app.get(`/states/:stateId/`, async (request, response) => {
 //API 3
 app.post("/districts/", async (request, response) => {
   const districtDetails = request.body;
+ // console.log(request.body)
   const {
     districtName,
     stateId,
