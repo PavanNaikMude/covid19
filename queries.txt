@@ -1,0 +1,7 @@
+// API 3
+
+const {  districtName,
+   stateId,  cases,
+   cured,  active,   deaths,
+   } = districtDetails;
+   const createItemQuery = `INSERT INTO district VALUES('${districtName}',${stateId},${cases},${cured},${active},${deaths})`;
